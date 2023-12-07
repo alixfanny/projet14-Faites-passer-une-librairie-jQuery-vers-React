@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 5%;
+
+    h1{
+        text-align: center;
+        flex: 6;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        color: #004B87;
+    }
+
+    .logo{
+        cursor: pointer;
+        color: #004B87;
+    }
+}
+
+.recherche{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ant-table-wrapper{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+}
+
+.ant-input{
+    width: 30%;
+}
+
+.ant-pagination-item,
+.ant-pagination-item-link,
+.ant-pagination-item-active a {
+    color: #004B87 !important;
+}
+
+.ant-pagination-item-active{
+    border-color: #004B87 !important;
+}
+
+.ant-table-thead > tr > th {
+    background-color: rgba(255, 167, 38, 0.7) !important;
+}
+

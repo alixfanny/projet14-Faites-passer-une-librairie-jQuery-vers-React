@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap");
+section {
+  font-family: "Hedvig Letters Sans", sans-serif;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+section header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: solid 2px #004B87;
+}
+section header .svg-inline--fa {
+  margin-right: 7%;
+}
+section header h1 {
+  color: #004B87;
+}
+section header a {
+  text-decoration: none;
+  width: 15%;
+  color: #004B87;
+}
+section h2 {
+  text-align: center;
+  color: #004B87;
+  margin-top: 4%;
+}
+section .form {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  box-shadow: 0px 2px 17px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 17px;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
+  height: 250px;
+  margin-top: 4%;
+}
+section .form .container-input {
+  padding-left: 6%;
+}
+section .form .input-container {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+#department, #state {
+  display: block !important;
+  margin-left: 4%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ui-selectmenu-text {
+  display: none;
+}
+
+#department-menu {
+  display: none;
+}
+
+#state-menu {
+  display: none;
+}
+
+.input-field {
+  border: none;
+  border-bottom: solid 2px #004B87;
+  margin-left: 4%;
+  background-color: transparent;
+}
+
+.input-employer, .input-address, .input-employs {
+  width: 31%;
+}
+
+.input-employer {
+  background-color: rgb(255, 167, 38);
+  border-radius: 26px;
+  height: 226px;
+}
+
+.input-address {
+  background-color: #E5E5E5;
+  border-radius: 26px;
+  height: 226px;
+}
+
+.input-employs {
+  background-color: rgba(182, 141, 222, 0.7);
+  border-radius: 26px;
+  height: 226px;
+}
+
+.save-button {
+  margin-top: 4%;
+  position: absolute;
+  right: 4%;
+  border: none;
+  background-color: #004B87;
+  font-size: 18px;
+  width: 10%;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#confirmation {
+  display: none;
+  background-color: white;
+  box-shadow: 0px 2px 29px 0px rgba(0, 0, 0, 0.7);
+  width: 30%;
+  height: 65px;
+  border-radius: 15px;
+  position: absolute;
+  top: 36%;
+  left: 36%;
+}
+#confirmation .button-close-modal {
+  position: absolute;
+  top: 13%;
+  right: 3%;
+  color: #004B87;
+  cursor: pointer;
+  font-size: 22px;
+  border: none;
+  background-color: transparent;
+}
+#confirmation .text-confirmation {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Hedvig Letters Sans", sans-serif;
+}/*# sourceMappingURL=createEmploye.css.map */
