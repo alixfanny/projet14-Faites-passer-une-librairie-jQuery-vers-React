@@ -1,7 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+let listEmployees = localStorage.getItem("employees"); 
+
 const initialState = {
-  list: [],
+  list: listEmployees ? JSON.parse(listEmployees) : [],
 };
 
 export const employeeSlice = createSlice({
@@ -10,6 +12,7 @@ export const employeeSlice = createSlice({
   reducers: {
     add: (state, action) => {
       state.list.push(action.payload);
+      localStorage.setItem("employees", JSON.stringify(state.list))
     },
   },
 });
