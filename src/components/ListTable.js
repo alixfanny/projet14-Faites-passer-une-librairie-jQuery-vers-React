@@ -11,7 +11,7 @@ function ListTable({headers, items, defaultItemsPerPage = 20}) {
     // Pagination variables
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(defaultItemsPerPage);
-    const itemsPerPageOptions = [ 20, 40, 60, 80, 100]
+    const itemsPerPageOptions = [ 10, 20, 40, 60, 80, 100];
     const startIndex = currentPage * itemsPerPage - itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
